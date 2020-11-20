@@ -2,6 +2,11 @@
 
 ## dataset-generator
 
+### Setup
+(make sure you have node and npm installed on your machine)
+- npm i
+- node index.js (to generate dataset)
+
 ### how to read dataset
 
 ```javascript
@@ -17,4 +22,4 @@
 
 #### Convention followed for images under images folder
 
-We have 100 different images in /images and each image is available in 5 size (32, 64, 128, 256, 512)
+We have 100 different images in /images and each image.jpg is available in 5 size (32, 64, 128, 256, 512)
