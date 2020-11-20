@@ -1,11 +1,11 @@
 # face-analyser-generator
 
-## dataset-generator
+## dataset-extractor
 
 ### Setup
 (make sure you have node and npm installed on your machine)
 - npm i
-- node index.js (to generate dataset)
+- node index.js (to extract dataset)
 
 ### how to read dataset
 
