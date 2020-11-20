@@ -1,0 +1,16 @@
+node_modules/
+eye_color_dataset/blue/images/
+eye_color_dataset/brown/images/
+eye_color_dataset/gray/images/
+eye_color_dataset/green/images/
+
+hair_color_dataset/black/images/
+hair_color_dataset/blond/images/
+hair_color_dataset/brown/images/
+hair_color_dataset/gray/images/
+
+hair_length_dataset/long/images/
+hair_length_dataset/medium/images/
+hair_length_dataset/short/images/
+
+env.js
