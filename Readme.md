@@ -13,28 +13,49 @@ Place the *imageaug.ipynb* file and the *images* folder inside the root director
 ```
 root
 ├── imageaug.ipynb
-├── images
-│   ├── classA_folder
-│   └── classB_folder
-│   └── classC_folder
-│   └── classD_folder
+└── images
+    ├── classA_folder
+    │   ├──image1.jpg
+    │   └──image2.jpg
+    └── classB_folder
+        ├──image1.jpg
+        └──image2.jpg
+
 ```
 # Output
 Out put of the augmentation will be inside the *out* folder in the root directory.
 
 ```
 root
+root
 ├── imageaug.ipynb
 ├── images
 │   ├── classA_folder
+│   │   ├──image1.jpg
+│   │   └──image2.jpg
 │   └── classB_folder
-│   └── classC_folder
-│   └── classD_folder
-├── out
-│   ├── classA_folder
-│   └── classB_folder
-│   └── classC_folder
-│   └── classD_folder
+│       ├──image1.jpg
+│       └──image2.jpg
+└── out
+    ├── classA_folder
+    │   ├──image1.jpg
+    │   ├──aimage2.jpg
+    │   ├──bimage1.jpg
+    │   ├──cimage2.jpg
+    │   ├──dimage1.jpg
+    │   ├──eimage2.jpg
+    │   ├──fimage1.jpg
+    │   └──gimage2.jpg
+    └── classB_folder
+        ├──image1.jpg
+        ├──aimage2.jpg
+        ├──bimage1.jpg
+        ├──cimage2.jpg
+        ├──dimage1.jpg
+        ├──eimage2.jpg
+        ├──fimage1.jpg
+        └──gimage2.jpg
+
 ```
 In each image, 7 augmentations are applied:
 1. Rotate left
