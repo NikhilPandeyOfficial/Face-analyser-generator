@@ -10,7 +10,7 @@
 Place the *imageaug.ipynb* file and the *images* folder inside the root folder
 
 ### Structure of the root folder
-root
+>root
 ├── imageaug.ipynb
 ├── images
 │   ├── classA_folder
@@ -21,7 +21,7 @@ root
 # Output
 Out put of the augmentation will be inside the *out* folder in the root.
 
-root
+>root
 ├── imageaug.ipynb
 ├── images
 │   ├── classA_folder
