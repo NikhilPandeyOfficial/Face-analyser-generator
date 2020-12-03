@@ -7,9 +7,10 @@
 >pip install imgaug
 
 ## Placing the files
-Place the *imageaug.ipynb* file and the *images* folder inside the root folder
+Place the *imageaug.ipynb* file and the *images* folder inside the root directory.
 
 ### Structure of the root folder
+```
 root
 ├── imageaug.ipynb
 ├── images
@@ -17,10 +18,11 @@ root
 │   └── classB_folder
 │   └── classC_folder
 │   └── classD_folder
-
+```
 # Output
-Out put of the augmentation will be inside the *out* folder in the root.
+Out put of the augmentation will be inside the *out* folder in the root directory.
 
+```
 root
 ├── imageaug.ipynb
 ├── images
@@ -28,12 +30,12 @@ root
 │   └── classB_folder
 │   └── classC_folder
 │   └── classD_folder
-├── **out**
-│   ├── **classA_folder**
-│   └── **classB_folder**
-│   └── **classC_folder**
-│   └── **classD_folder**
-
+├── out
+│   ├── classA_folder
+│   └── classB_folder
+│   └── classC_folder
+│   └── classD_folder
+```
 In each image, 7 augmentations are applied:
 1. Rotate left
 2. Rotate rigth
