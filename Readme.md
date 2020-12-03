@@ -1,15 +1,15 @@
-### Set up
+# Set up
 
-#### Prerequisites
+## Prerequisites
 ***imgaug*** librabry
 
-##### Installation
+### Installation
 >pip install imgaug
 
-#### Placing the files
+## Placing the files
 Place the *imageaug.ipynb* file and the *images* folder inside the root folder
 
-##### Structure of the root folder
+### Structure of the root folder
 root
 ├── imageaug.ipynb
 ├── images
@@ -18,7 +18,7 @@ root
 │   └── classC_folder
 │   └── classD_folder
 
-### Output
+# Output
 Out put of the augmentation will be inside the *out* folder in the root.
 
 root
