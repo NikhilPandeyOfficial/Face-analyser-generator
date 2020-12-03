@@ -27,7 +27,6 @@ Out put of the augmentation will be inside the *out* folder in the root director
 
 ```
 root
-root
 ├── imageaug.ipynb
 ├── images
 │   ├── classA_folder
