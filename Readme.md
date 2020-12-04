@@ -5,7 +5,7 @@ Place the *score.ipynb* in the root directory having the val_img folder and the 
 ```
 root
 ├── score.ipynb
-├──  cnn_model.tf (cnn_model.h5)
+├──  cnn_model.tf (or cnn_model.h5)
 └── val_img
     ├── classA_folder
     │   ├──image1.jpg
