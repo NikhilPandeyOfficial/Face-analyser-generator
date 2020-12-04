@@ -14,4 +14,4 @@ root
         ├──image1.jpg
         └──image2.jpg
 ```
-All the other neccesary changes are mentiones inside the code, wherever needed.
+All the other neccesary changes are mentioned inside the code, wherever needed.
