@@ -1,1 +1,8 @@
 .idea
+eye_color/final_cnn_model_checkpoint.tf/
+eye_color/0images/
+eye_color/images/
+eye_color/val_img/
+hair_length/
+age_gender_race/
+eye_color/Data Aug.ipynb
