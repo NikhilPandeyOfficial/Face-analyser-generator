@@ -1,4 +1,7 @@
 .idea
+eye_color/final_cnn_model_checkpoint.tf/
+eye_color/0images/
+eye_color/images/
+eye_color/val_img/
 age_gender_race/
-eye_color/
 hair_length/
