@@ -3,6 +3,11 @@ import { useSelector } from "react-redux";
 
 import styles from "./ExtractFacialFeatures.module.css";
 
+import UploadedImage from "../../components/UploadedImage/UploadedImage";
+
+// Bootstrap
+import { Container, Row, Col } from "react-bootstrap";
+
 const ExtractFacialFeatures = (props) => {
   const [selectedImage, setselectedImage] = useState(null);
   const [error, setError] = useState("");
@@ -28,31 +33,50 @@ const ExtractFacialFeatures = (props) => {
   };
 
   return (
-    <div className={styles.container}>
-      <div className={styles.imagesContainer}>
-        <div className={styles.uploadContainer}>
-          {/* handle image upload to design for 1st upload
-        <input
-          type="file"
-          value={selectedImage1}
-          onChange={(e) => setselectedImage1(e.target.files[0])}
-        />*/}
-        </div>
-
-        <div className={styles.btn}> Extract Features </div>
-      </div>
-      <div className={styles.featureContainer}>
-        <div className={`${styles.featureBox} ${styles.featureHead}`}>
-          <div className={styles.featureType}> Feature Type </div>
-          <div className={styles.label}> Label </div>
-        </div>
-        <div className={styles.featureBox}>
-          <div className={styles.featureType}> Eye Color </div>
-          <div className={styles.label}> Black </div>
-        </div>
-        {/**display compared Details using map function using css classes */}
-      </div>
-    </div>
+    <Container>
+      <Row>
+        <Col sm={6} className={styles.imageUpload}>
+          <UploadedImage name="image"></UploadedImage>
+          <div className={styles.btnContainer}>
+            <div className={styles.btn}>Extract</div>
+          </div>
+        </Col>
+        <Col className={styles.extractionResults}>
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Value</th>
+              </tr>
+              <tr>
+                <th>Age</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Gender</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Ethnicity</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Hair Color</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Eye Color</th>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Beard</th>
+                <td></td>
+              </tr>
+            </thead>
+          </table>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

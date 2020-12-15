@@ -20,4 +20,8 @@
      object-fit: cover;
   pointer-events: none;
 }
+
+input {
+  display: none;
+}
 /*# sourceMappingURL=UploadedImage.module.css.map */
