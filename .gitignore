@@ -5,3 +5,6 @@ eye_color/images/
 eye_color/val_img/
 age_gender_race/
 hair_length/
+face_generator/final_cnn_checkpoint.tf/
+face_generator/images/
+face_generator/model/
